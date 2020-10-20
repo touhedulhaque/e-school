@@ -18,48 +18,47 @@
 </head>
 
 <body>
-    <section class="bg-color-sec">
+    <section class="container bg-color-sec mb-5">
         <!--start nav-bar with bg-color-->
-        <div class="container">
 
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand row align-items-center" href="#"><img class="logo-resize"
-                        src="images/ICON/Logo.png" alt=""></a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand row align-items-center" href="#"><img src="images/ICON/Logo.png" alt=""
+                    width="200px"></a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <div class="row align-items-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#books">Books</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#courses">Courses</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#others">Others</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#blog">Blog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <div class="row align-items-center">
+                        <li class="nav-item mr-1">
+                            <a class="nav-link" href="#books">Books</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a class="nav-link" href="#others">Others</a>
+                        </li>
+                        <li class="nav-item mr-1">
+                            <a class="nav-link" href="#blog">Blog</a>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#sign in"><button class="button-all">Sign in</button></a>
-                            </li>
-                        </div>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+                        <li class="nav-item mr-1">
+                            <a class="nav-link" href="#sign in"><button class="button-all">Sign in</button></a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
         <!--finish nav bar but bg-color running till-->
         <!--learn with fun start-->
-        <div class="container">
+        <div class="container mt-5 mb-5">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row align-items-center">
+                        <div class="row">
                             <div class="col-md-6">
                                 <p><small>Are you ready to Learn?</small></p>
                                 <h1>Learn With fun <br> on <span>any schedule</span></h1>
@@ -68,12 +67,10 @@
                                 <button class="button-all">Get Started</button>
                             </div>
                             <div class="col-md-6">
-                                <img src="images/Photos/Illustration.png" class="d-block w-100" alt="...">
+                                <img src="images/Photos/Illustration.png" class="img-fluid w-100" alt="...">
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -81,62 +78,57 @@
 
     <!--learn with fun finish and bg color finish-->
     <!--start 4 card section-->
-
-    <section>
-        <div class="container">
-
-
-            <div class="card-deck">
-
-                <div class="card bg-light d-flex align-items-center box-deco">
-                    <img class="pic-resize img-fluid" src="images/ICON/book.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">1500+ Topic</h5>
-                        <p class="card-text">Learn Anythings</p>
-                    </div>
+<section class="mb-5">
+    <div class="container mt-5 mb-5">
+        <div class="card-deck row mt-5 p-1">
+            <div class="card bg-light col-md-3 col-sm-6 align-items-center box-deco">
+                <img class="pic-resize" src="images/ICON/book.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">1500+ Topic</h5>
+                    <p class="card-text">Learn Anythings</p>
                 </div>
+            </div>
 
-                <div class="card bg-light d-flex align-items-center box-deco">
-                    <img class="pic-resize img-fluid" src="images/ICON/Student.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">1800+ Students</h5>
-                        <p class="card-text">Learn Anythings
-                        </p>
-                    </div>
+            <div class="card bg-light col-md-3 col-sm-6 align-items-center  box-deco">
+                <img class="pic-resize" src="images/ICON/Student.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">1800+ Students</h5>
+                    <p class="card-text">Learn Anythings
+                    </p>
                 </div>
+            </div>
 
-                <div class="card bg-light d-flex align-items-center box-deco">
-                    <img class="pic-resize img-fluid" src="images/ICON/Test.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">9K+ Test Taken</h5>
-                        <p class="card-text">Learn Anythings</p>
-                    </div>
+            <div class="card bg-light col-md-3 col-sm-6 align-items-center  box-deco">
+                <img class="pic-resize" src="images/ICON/Test.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">9K+ Test Taken</h5>
+                    <p class="card-text">Learn Anythings</p>
                 </div>
+            </div>
 
-                <div class="card bg-light d-flex align-items-center box-deco">
-                    <img class="pic-resize img-fluid" src="images/ICON/Students.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">2000+ Student</h5>
-                        <p class="card-text">Learn Anythings</p>
-                    </div>
+            <div class="card bg-light col-md-3 col-sm-6 align-items-center box-deco ">
+                <img class="pic-resize" src="images/ICON/Students.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">2000+ Student</h5>
+                    <p class="card-text">Learn Anythings</p>
                 </div>
-
             </div>
 
         </div>
-    </section>
+    </div>
+</section>
     <!--end 4 card section. changed background color according to bootstrap selected background color-->
 
     <!--start online course section-->
-    <section>
-        <div class="container">
-            <h3 class="online-head">Online Courses</h3>
+    <section class="mt-5 mb-5">
+        <div class="container mt-3 mb-3">
+            <h3 class="online-head mt-5 mb-5">Online Courses</h3>
             <div class="card-deck">
                 <div class="card box-with-shadow">
                     <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Modern Psychology</h5>
-                        <p class="card-text">Designation</p>
+                        <p class="card-text">6 months</p>
                         <button class="button-all">Buy Course</button>
                         <div class="d-flex justify-content-between">
                             <img class="icon" src="images/ICON/calendar.png" alt="">
@@ -149,8 +141,8 @@
                 <div class="card box-with-shadow">
                     <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Modern Psychology</h5>
-                        <p class="card-text">Designation</p>
+                        <h5 class="card-title">Modern Economics</h5>
+                        <p class="card-text">6 months</p>
                         <button class="button-all">Buy Course</button>
                         <div class="d-flex justify-content-between">
                             <img class="icon" src="images/ICON/calendar.png" alt="">
@@ -163,8 +155,8 @@
                 <div class="card box-with-shadow">
                     <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
                     <div class="card-body ">
-                        <h5 class="card-title">Modern Psychology</h5>
-                        <p class="card-text">Designation</p>
+                        <h5 class="card-title">Modern Science</h5>
+                        <p class="card-text">6 months</p>
                         <button class="button-all">Buy Course</button>
 
                         <div class="d-flex justify-content-between">
@@ -180,13 +172,13 @@
     </section>
     <!--end online course section-->
     <!--start testimonial section-->
-    <section>
-        <div class="container">
-            <h3 class="testimoni-align">Testiomonial</h3>
+    <section class="mt-5 mb-5">
+        <div class="container p-2">
+            <h3 class="text-center">Testimonial</h3>
 
-            <div class="row align-items-center">
+            <div class="row align-items-center p-2">
                 <div class="col-md-4 d-flex justify-content-end">
-                    <img class="testimoni-img-resize" src="images/Photos/Man.png" alt="">
+                    <img class="testimonial-img-resize" src="images/Photos/Man.png" alt="">
                 </div>
                 <div class="col-md-8 d-flex justify-content-start">
                     <p>There many positive sides of above courses. I personally recommended Modern Psychology. I learned
@@ -199,9 +191,9 @@
     </section>
     <!--end testimonial section-->
     <!--start extra part for bonus marking-->
-    <section>
-    
-        <div class="container">
+    <section class="mt-5 mb-5">
+
+        <div class="container mt-5 mb-5">
             <div class="spinner-grow text-primary" role="status">
                 <span class="sr-only">Loading...</span>
             </div>
@@ -228,40 +220,43 @@
             </div>
         </div>
 
-        <h3 class="award-heading-extra">"Award"</h3>
-        <div class="container">
+        <h3 class="award-heading-extra mt-5 mb-5">"Award"</h3>
+        <div class="container mt-5 mb-5">
             <div class="card-deck">
                 <div class="card box-deco bg-info text-white">
-                  <img src="images/award/prize-2.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Inspire Award</h5>
-                    <p class="card-text">Among a bunch of awards; above are the last three ceremony certificate by dedicating, perseverence and hard work.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 3 months ago</small>
-                  </div>
+                    <img src="images/award/prize-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Inspire Award</h5>
+                        <p class="card-text">Among a bunch of awards; above are the last three ceremony certificate by
+                            dedicating, perseverence and hard work.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 months ago</small>
+                    </div>
                 </div>
                 <div class="card box-deco bg-info text-white">
-                  <img src="images/award/prize-3.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Super Hero Award</h5>
-                    <p class="card-text">TAmong a bunch of awards; above are the last three ceremony certificate by dedicating, perseverence and hard work.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 1 month ago</small>
-                  </div>
+                    <img src="images/award/prize-3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Super Hero Award</h5>
+                        <p class="card-text">TAmong a bunch of awards; above are the last three ceremony certificate by
+                            dedicating, perseverence and hard work.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 1 month ago</small>
+                    </div>
                 </div>
                 <div class="card box-deco bg-info text-white">
-                  <img src="images/award/prize-1.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Entrepreneural Award</h5>
-                    <p class="card-text">Among a bunch of awards; above are the last three ceremony certificate by dedicating, perseverence and hard work.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </div>
+                    <img src="images/award/prize-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Entrepreneural Award</h5>
+                        <p class="card-text">Among a bunch of awards; above are the last three ceremony certificate by
+                            dedicating, perseverence and hard work.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
     </section>
 
@@ -274,7 +269,7 @@
                 <div class="col-md-5">
                     <p>Millions of people of all ages and from around the world are improving their lives with us</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-sm-6">
                     <ul>
                         <li><strong>Course</strong> </li>
                         <li>Graphic Design</li>
@@ -305,7 +300,7 @@
         </div>
         <footer>
             <small class="foot-note">
-                <p>Copyright © 2020.demo >> practiced by touhedul haque</p>
+                <p>Copyright © 2020.demo >> practiced by Touhedul haque. Zürich, Switzerland</p>
             </small>
         </footer>
 
